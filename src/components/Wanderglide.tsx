@@ -5,7 +5,6 @@ import FrontImg from "../../public/Wanderglide/front.png";
 import BackImg from "../../public/Wanderglide/back.png";
 import SleeveImg from "../../public/Wanderglide/sleeve.png";
 import CollageImg from "../../public/Wanderglide/collage.png";
-import ProductYellowImg from "../../public/Wanderglide/product-yellow.png";
 import CoupleImg from "../../public/Wanderglide/couple.png";
 import InstagramIcon from "../../public/Wanderglide/instagram.png";
 import PinterestIcon from "../../public/Wanderglide/pinterest.png";
@@ -203,7 +202,7 @@ export default function Wanderglide() {
               <a href="#interactive" className="card-btn">View Details</a>
             </div>
             <div className="product-card">
-              <img src={ProductYellowImg} alt="Limited Edition" />
+              <img src={FrontImg} alt="Limited Edition" />
               <h3>WanderGlide &mdash; Limited Edition</h3>
               <p className="price">$299</p>
               <a href="#interactive" className="card-btn">View Details</a>
